@@ -1,3 +1,4 @@
+import { Button } from "@material-tailwind/react"
 import React, { useState } from "react"
 
 const CTA = () => {
@@ -119,7 +120,7 @@ const CTA = () => {
                 <button
                   onClick={() => handleButtonClick(1)}
                   type="button"
-                  class="text-white bg-[#6c47ff] hover:bg-opacity-90 focus:outline-none focus:ring-4 focus:ring-[#b2a0fc] font-medium rounded-full text-md px-6 py-4 text-center mb-2 dark:hover:hover:bg-opacity-90 dark:focus:ring-purple-900"
+                  class="text-white flex items-center justify-center bg-[#6c47ff] hover:bg-opacity-90 focus:outline-none focus:ring-4 focus:ring-[#b2a0fc] font-medium rounded-full text-md px-8 py-3.5 text-center mb-2 dark:hover:hover:bg-opacity-90 dark:focus:ring-purple-900"
                 >
                   {"<SignIn/>"}
                 </button>
@@ -127,7 +128,7 @@ const CTA = () => {
                 <button
                   onClick={() => handleButtonClick(2)}
                   type="button"
-                  class="text-white bg-[#6c47ff] hover:bg-opacity-90 focus:outline-none focus:ring-4 focus:ring-[#b2a0fc] font-medium rounded-full text-md px-6 py-4 text-center mb-2 dark:hover:hover:bg-opacity-90 dark:focus:ring-purple-900"
+                  class="text-white flex items-center justify-center bg-[#6c47ff] hover:bg-opacity-90 focus:outline-none focus:ring-4 focus:ring-[#b2a0fc] font-medium rounded-full text-md px-8 py-3.5 text-center mb-2 dark:hover:hover:bg-opacity-90 dark:focus:ring-purple-900"
                 >
                   {"<SignUp/>"}
                 </button>
@@ -135,7 +136,7 @@ const CTA = () => {
                 <button
                   onClick={() => handleButtonClick(3)}
                   type="button"
-                  class="text-white bg-[#6c47ff] hover:bg-opacity-90 focus:outline-none focus:ring-4 focus:ring-[#b2a0fc] font-medium rounded-full text-md px-6 py-4 text-center mb-2 dark:hover:hover:bg-opacity-90 dark:focus:ring-purple-900"
+                  class="text-white flex items-center justify-center bg-[#6c47ff] hover:bg-opacity-90 focus:outline-none focus:ring-4 focus:ring-[#b2a0fc] font-medium rounded-full text-md px-8 py-3.5 text-center mb-2 dark:hover:hover:bg-opacity-90 dark:focus:ring-purple-900"
                 >
                   {"<UserButton/>"}
                 </button>
@@ -143,7 +144,7 @@ const CTA = () => {
                 <button
                   onClick={() => handleButtonClick(4)}
                   type="button"
-                  class="text-white bg-[#6c47ff] hover:bg-opacity-90 focus:outline-none focus:ring-4 focus:ring-[#b2a0fc] font-medium rounded-full text-md px-6 py-4 text-center mb-2 dark:hover:hover:bg-opacity-90 dark:focus:ring-purple-900"
+                  class="text-white flex items-center justify-center bg-[#6c47ff] hover:bg-opacity-90 focus:outline-none focus:ring-4 focus:ring-[#b2a0fc] font-medium rounded-full text-md px-8 py-2.5 text-center mb-2 dark:hover:hover:bg-opacity-90 dark:focus:ring-purple-900"
                 >
                   {"<UserProfile/>"}
                 </button>
