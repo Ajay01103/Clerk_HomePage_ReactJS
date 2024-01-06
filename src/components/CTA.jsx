@@ -64,7 +64,7 @@ const CTA = () => {
 
   return (
     <div class="w-full mx-auto px-4 sm:px-6 lg:px-8 bg-[#0c0129]">
-      <div class="grid md:grid-cols-2 gap-4 md:gap-4 xl:gap-18 md:items-center">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-4 sm:pt-16 xl:gap-18 md:items-center">
         <div>
           <img
             className="px-4"

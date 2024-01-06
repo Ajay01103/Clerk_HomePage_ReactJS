@@ -2,7 +2,7 @@ import React from "react"
 
 const CTA2 = () => {
   return (
-    <section class="bg-[#0C0129] dark:bg-gray-900">
+    <section class="bg-[#0C0129] dark:bg-gray-900 py-28">
       <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-6 lg:px-12">
         <div class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7">
           <img
@@ -53,7 +53,7 @@ const CTA2 = () => {
           </a>
         </div>
       </div>
-      <div class="flex flex-row bg-no-repeat bg-center bg-cover mx-auto justify-center items-center mt-8 text-gray-500">
+      <div class="flex bg-[url('https://clerk.com/_next/image?url=%2Fimages%2Fdiamond-grid-dark.svg&w=1920&q=75')] flex-row bg-no-repeat bg-center bg-cover mx-auto justify-center items-center mt-8 text-gray-500">
         <img
           className="w-full object-fill"
           src="https://clerk.com/_next/image?url=%2Fimages%2Fhome%2Fframeworks.png&w=1920&q=75"
