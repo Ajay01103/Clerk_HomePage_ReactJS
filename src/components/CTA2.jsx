@@ -53,9 +53,9 @@ const CTA2 = () => {
           </a>
         </div>
       </div>
-      <div class="flex flex-row w-[90%] mx-auto justify-center items-center mt-8 text-gray-500">
+      <div class="flex flex-row bg-no-repeat bg-center bg-cover mx-auto justify-center items-center mt-8 text-gray-500">
         <img
-          className="w-full"
+          className="w-full object-fill"
           src="https://clerk.com/_next/image?url=%2Fimages%2Fhome%2Fframeworks.png&w=1920&q=75"
           alt=""
         />

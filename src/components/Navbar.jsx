@@ -207,13 +207,14 @@ export function NavbarWithMegaMenu() {
         </div>
         <div className="hidden gap-2 lg:flex">
           <Button
-            variant="text"
+            variant="outlined"
             size="sm"
             color="blue-gray"
           >
             Log In
           </Button>
           <Button
+            color={"deep-purple"}
             variant="gradient"
             size="sm"
           >

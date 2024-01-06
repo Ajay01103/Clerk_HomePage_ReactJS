@@ -64,7 +64,7 @@ const CTA = () => {
 
   return (
     <div class="w-full mx-auto px-4 sm:px-6 lg:px-8 bg-[#0c0129]">
-      <div class="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-4 xl:gap-18 md:items-center">
         <div>
           <img
             className="px-4"
@@ -153,14 +153,18 @@ const CTA = () => {
           </section>
 
           {currentImage && (
-            <img
-              class="w-full rounded-md"
-              src={currentImage}
-              // src="https://clerk.com/_next/image?url=%2Fimages%2Fcomponents%2Fcomponent-sign_in.svg&w=384&q=75"
-              alt="Image"
-            />
+            <div className="w-full rounded-xl h-[700px] bg-[url('https://clerk.com/_next/image?url=%2Fimages%2Fcomponents%2Fthemes%2Fmobile%2Flight-bg.png&w=1920&q=75')] bg-no-repeat bg-cover bg-center container content-center object-fill">
+              <img
+                class="w-[713px] h-[700px] rounded-md object-contain"
+                src={currentImage}
+                // src="https://clerk.com/_next/image?url=%2Fimages%2Fcomponents%2Fcomponent-sign_in.svg&w=384&q=75"
+                alt="Image"
+              />
+            </div>
           )}
-          <div class="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 w-full h-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-slate-800 dark:via-slate-900/0 dark:to-slate-900/0"></div>
+          {/* <div class="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 w-full h-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-slate-800 dark:via-slate-900/0 dark:to-slate-900/0">
+            <h1 className="text-white text-4xl">jfjsihih</h1>
+          </div> */}
         </div>
       </div>
     </div>
