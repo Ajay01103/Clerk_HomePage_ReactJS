@@ -88,20 +88,6 @@ const CTA = () => {
               href="#"
             >
               Start Building
-              {/* <svg
-                class="flex-shrink-0 w-4 h-4"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path d="m9 18 6-6-6-6" />
-              </svg> */}
             </a>
             <a
               class="py-3 px-10 inline-flex justify-center items-center gap-x-2 text-lg font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
@@ -157,14 +143,10 @@ const CTA = () => {
               <img
                 class="w-[713px] h-[700px] rounded-md object-contain"
                 src={currentImage}
-                // src="https://clerk.com/_next/image?url=%2Fimages%2Fcomponents%2Fcomponent-sign_in.svg&w=384&q=75"
                 alt="Image"
               />
             </div>
           )}
-          {/* <div class="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 w-full h-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-slate-800 dark:via-slate-900/0 dark:to-slate-900/0">
-            <h1 className="text-white text-4xl">jfjsihih</h1>
-          </div> */}
         </div>
       </div>
     </div>
