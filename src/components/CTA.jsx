@@ -139,7 +139,7 @@ const CTA = () => {
           </section>
 
           {currentImage && (
-            <div className="w-full rounded-xl h-[700px] bg-[url('https://clerk.com/_next/image?url=%2Fimages%2Fcomponents%2Fthemes%2Fmobile%2Flight-bg.png&w=1920&q=75')] bg-no-repeat bg-cover bg-center container content-center object-fill">
+            <div className="w-full h-[700px] bg-[url('https://clerk.com/_next/image?url=%2Fimages%2Fcomponents%2Fthemes%2Fmobile%2Flight-bg.png&w=1920&q=75')] bg-no-repeat bg-cover bg-center container content-center object-fill">
               <img
                 class="w-[713px] h-[700px] rounded-md object-contain"
                 src={currentImage}
