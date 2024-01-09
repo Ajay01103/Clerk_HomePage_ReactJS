@@ -65,9 +65,9 @@ const CTA = () => {
   return (
     <div class="w-full mx-auto px-4 sm:px-6 lg:px-8 bg-[#0c0129]">
       <div class="grid md:grid-cols-2 gap-4 md:gap-4 pt-16 xl:gap-18 md:items-center">
-        <div>
+        <div className="flex flex-col">
           <img
-            className="px-4"
+            className="px-4 w-[20%]"
             src="https://clerk.com/_next/image?url=%2Fimages%2Fcomponents%2Flock-icon.svg&w=96&q=75"
             alt="any"
           />
@@ -82,19 +82,19 @@ const CTA = () => {
             strategies you need passwords, email codes or links, OAuth and more.
           </p>
 
-          <div class="mt-10 px-4 flex flex-row gap-4 w-full sm:inline-flex">
-            <a
-              class="py-3 px-10 inline-flex justify-center items-center gap-x-2 text-lg font-semibold rounded-lg border border-transparent bg-[#6c47ff] text-white disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+          <div class="mt-10 px-4 flex flex-row sm:justify-center md:justify-start gap-4 w-full">
+            <button
+              class="md:py-3 py-2 md:px-10 px-8 flex flex-row flex-wrap justify-center items-center gap-x-2 md:text-lg text-sm font-semibold rounded-lg border border-transparent bg-[#6c47ff] text-white disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
               href="#"
             >
               Start Building
-            </a>
-            <a
-              class="py-3 px-10 inline-flex justify-center items-center gap-x-2 text-lg font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+            </button>
+            <button
+              class="md:py-3 py-2 md:px-10 px-4 flex flex-row justify-center items-center gap-x-2 md:text-lg text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
               href="#"
             >
               Contact sales team
-            </a>
+            </button>
           </div>
         </div>
 

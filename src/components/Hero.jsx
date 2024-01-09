@@ -17,14 +17,14 @@ const Hero = () => {
           </span>
           {/* <CommandLineIcon className="w-8 h-8" /> */}
         </a>
-        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+        <h1 class="mb-4 py-4 text-4xl font-extrabold tracking-normal antialiased leading-none text-[#262f40] md:text-5xl lg:text-6xl dark:text-white">
           More than authentication <br />
           <span className="text-[#6C47FF]">Complete user management.</span>
         </h1>
-        <p class="mb-8 py-2 text-lg font-normal lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+        <h3 class="mb-8 py-2 leading-normal tracking-normal text-lg font-normal lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           Clerk is more than a "sign-in box." Integrate complete user management UIs and APIs,
           purpose-built for React, Next.js, and the Modern Web.
-        </p>
+        </h3>
         <div class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <a
             href="#"
