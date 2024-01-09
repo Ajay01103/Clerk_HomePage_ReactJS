@@ -26,7 +26,7 @@ const Reviews = () => {
                 <h3 className="text-gray-100 text-left text-xl font-semibold py-4">
                   Developer Experience
                 </h3>
-                <p class="text-base md:text-lg sm:text-sm text-gray-100 dark:text-gray-200 leading-3">
+                <p class="text-base md:text-lg sm:text-sm md:leading-3 xs:leading-10 text-gray-100 dark:text-gray-200 leading-3">
                   We are a team of dev-tool experts, and know all the pain points involved with
                   building for the web. We’ve painstakingly built the authentication platform you’ve
                   always wished you had — one that “just works”, and one that still keeps you in
@@ -65,7 +65,7 @@ const Reviews = () => {
                 <h3 className="text-xl text-gray-100 font-semibold py-4 text-left">
                   Secure by default
                 </h3>
-                <p class="text-base leading-3 md:text-lg sm:text-sm text-gray-200 dark:text-gray-300">
+                <p class="text-base leading-3 md:text-lg sm:text-sm md:leading-3 xs:leading-10 text-gray-200 dark:text-gray-300">
                   We are a team of experienced web-security experts focused on helping you ship your
                   product securely, without having to sweat over all the intricate security details.
                   All of our APIs are built following industry best-practices and are regularly
