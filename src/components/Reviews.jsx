@@ -102,7 +102,7 @@ const Reviews = () => {
                 <h3 className="text-xl text-gray-100 font-semibold py-4 text-left">
                   Dedicated Partners
                 </h3>
-                <p class="text-base md:text-lg sm:text-sm xs:text-xs leading-3 text-gray-200 dark:text-gray-300">
+                <p class="text-base md:text-lg sm:text-sm xs:text-xs md:leading-3 xs:leading-10 text-gray-200 dark:text-gray-300">
                   We know auth is core to your app, so we go above and beyond to make sure you’re
                   well supported. There’s always someone on call to answer any questions you may
                   have, or there in case of emergencies. We offer industry leading SLAs and support
