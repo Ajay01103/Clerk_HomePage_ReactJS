@@ -2,17 +2,21 @@ const Reviews = () => {
   return (
     <div class="overflow-hidden bg-[#0C0129]">
       <div class="relative max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        <div class="max-w-2xl w-3/4 lg:w-1/2 mb-6 sm:mb-10 md:mb-16">
-          <img
-            className="py-4"
-            src="https://clerk.com/_next/image?url=%2Fimages%2Fhome%2Fdark-logo.svg&w=64&q=75"
-            alt=""
-          />
-          <span className="text-[#6365ae] p-1 my-4 text-xl">Why Clerk ?</span>
-          <h2 class="text-2xl sm:text-3xl lg:text-4xl text-gray-200 font-semibold">
-            Created by engineers and founders, we built Clerk from the ground up to solve our own
-            problem.
-          </h2>
+        <div class="max-w-2xl p-4 justify-center xs:flex-col md:flex-row w-3/4 lg:w-1/2 mb-6 sm:mb-10 md:mb-16">
+          <div>
+            <img
+              className="py-4 xs:w-[22%]"
+              src="https://clerk.com/_next/image?url=%2Fimages%2Fhome%2Fdark-logo.svg&w=64&q=75"
+              alt=""
+            />
+          </div>
+          <div className="gap-y-4">
+            <span className="text-[#6365ae] p-1 my-4 text-xl">Why Clerk ?</span>
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl text-gray-200 font-semibold">
+              Created by engineers and founders, we built Clerk from the ground up to solve our own
+              problem.
+            </h2>
+          </div>
         </div>
 
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -26,12 +30,19 @@ const Reviews = () => {
                 <h3 className="text-gray-100 text-left text-xl font-semibold py-4">
                   Developer Experience
                 </h3>
-                <p class="text-base md:text-lg sm:text-sm md:leading-3 xs:leading-10 text-gray-100 dark:text-gray-200 leading-3">
+                <p class="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-lg 2xl:text-base sm:leading-6 md:leading-7 xl:leading-7 text-gray-200 dark:text-gray-300">
                   We are a team of dev-tool experts, and know all the pain points involved with
                   building for the web. We’ve painstakingly built the authentication platform you’ve
                   always wished you had — one that “just works”, and one that still keeps you in
                   control of your user data and user experience.
                 </p>
+
+                {/* <p class="text-base md:text-lg sm:text-sm xs:text-base xs:leading-7 text-gray-200 dark:text-gray-300">
+                  We are a team of dev-tool experts, and know all the pain points involved with
+                  building for the web. We’ve painstakingly built the authentication platform you’ve
+                  always wished you had — one that “just works”, and one that still keeps you in
+                  control of your user data and user experience.
+                </p> */}
               </div>
 
               <div class="p-4 bg-[#191c62] rounded-b-xl md:px-7 dark:bg-slate-700">
@@ -65,7 +76,7 @@ const Reviews = () => {
                 <h3 className="text-xl text-gray-100 font-semibold py-4 text-left">
                   Secure by default
                 </h3>
-                <p class="text-base leading-3 md:text-lg sm:text-sm md:leading-3 xs:leading-10 text-gray-200 dark:text-gray-300">
+                <p class="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-lg 2xl:text-base sm:leading-6 md:leading-7 xl:leading-7 text-gray-200 dark:text-gray-300">
                   We are a team of experienced web-security experts focused on helping you ship your
                   product securely, without having to sweat over all the intricate security details.
                   All of our APIs are built following industry best-practices and are regularly
@@ -102,7 +113,7 @@ const Reviews = () => {
                 <h3 className="text-xl text-gray-100 font-semibold py-4 text-left">
                   Dedicated Partners
                 </h3>
-                <p class="text-base md:text-lg sm:text-sm xs:text-xs md:leading-3 xs:leading-10 text-gray-200 dark:text-gray-300">
+                <p class="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-lg 2xl:text-base sm:leading-6 md:leading-7 xl:leading-7 text-gray-200 dark:text-gray-300">
                   We know auth is core to your app, so we go above and beyond to make sure you’re
                   well supported. There’s always someone on call to answer any questions you may
                   have, or there in case of emergencies. We offer industry leading SLAs and support
