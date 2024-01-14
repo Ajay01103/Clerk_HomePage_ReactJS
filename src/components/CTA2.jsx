@@ -13,7 +13,7 @@ const CTA2 = () => {
         <h1 class="mb-4 text-3xl mx-auto font-extrabold tracking-normal leading-none md:text-4xl lg:text-5xl text-white">
           The most powerful APIs built specifically for the Modern Web
         </h1>
-        <p class="mb-8 text-lg font-normal text-[#b3b3d0] lg:text-[19px] tracking-tight leading-7 sm:px-16 xl:px-48 dark:text-gray-400">
+        <p class="mb-8 text-lg font-normal text-[#b3b3d0] tracking-tight leading-7 sm:px-16 xl:px-48 dark:text-gray-400">
           New technologies have made building on the web much easier; however, many dev tools
           haven’t kept up. At Clerk, we believe a component is worth 1,000 APIs and that they should
           work seamlessly in any stack so that you can build faster.

@@ -1,17 +1,17 @@
 const Reviews = () => {
   return (
     <div class="overflow-hidden bg-[#0C0129]">
-      <div class="relative max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <div class="relative max-w-[85rem] px-4 py-4 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <div class="max-w-2xl p-4 justify-center xs:flex-col md:flex-row w-3/4 lg:w-1/2 mb-6 sm:mb-10 md:mb-16">
           <div>
             <img
-              className="py-4 xs:w-[22%]"
+              className="py-4 w-[15%] lg:w-[22%]"
               src="https://clerk.com/_next/image?url=%2Fimages%2Fhome%2Fdark-logo.svg&w=64&q=75"
               alt=""
             />
           </div>
-          <div className="gap-y-4">
-            <span className="text-[#6365ae] p-1 my-4 text-xl">Why Clerk ?</span>
+          <div className="space-y-4 w-full flex flex-col justify-between">
+            <span className="text-[#6365ae] p-1 my-1 text-xl">Why Clerk ?</span>
             <h2 class="text-2xl sm:text-3xl lg:text-4xl text-gray-200 font-semibold">
               Created by engineers and founders, we built Clerk from the ground up to solve our own
               problem.
